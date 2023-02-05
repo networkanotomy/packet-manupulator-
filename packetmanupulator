@@ -1,0 +1,5 @@
+from scapy.all import *
+
+payload= "we are mad 
+packet= IP(src="........", dst="..........")/TCP(dport=53)/payload
+send(packet)
